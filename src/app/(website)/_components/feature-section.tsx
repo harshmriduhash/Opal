@@ -9,7 +9,7 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Organize your projects efficiently with dedicated workspaces. Invite team members, manage permissions, and keep your video content structured.
+            Now Organize your projects efficiently with dedicated workspaces. Invite team members, manage permissions, and keep your video content structured.
           </p>
           <div className="flex justify-center">
             <Image
