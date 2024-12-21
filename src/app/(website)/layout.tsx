@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 type Props = {
-    children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
-const Layout = ({children}: Props) => {
+const Layout = ({ children }: Props) => {
   return (
     <div className="flex flex-col py-10 px-10 xl:px-0 container">
-        {children}
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -15,7 +15,7 @@ export default function Home() {
         <section className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-5xl font-bold mb-6">Record, Share, Collaborate</h1>
           <p className="text-xl mb-8">
-            Opal is your all-in-one solution for video recording and sharing, designed for seamless collaboration.
+            Opal is your all-in-one solution for video recording and sharing. Designed for seamless collaboration.
           </p>
           <Button size="lg" className="mr-4">
             Start for Free
@@ -29,7 +29,7 @@ export default function Home() {
         <VideoShowcase />
 
         <section className="container mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why Choose Opal?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">But, Why Choose Opal?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               'Web & Desktop Recording',

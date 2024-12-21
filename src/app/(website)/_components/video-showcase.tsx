@@ -1,37 +1,41 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const videos = [
-  { 
-    id: 'workspace',
-    title: 'Quick Workspace Tour',
-    description: 'Learn how to set up and navigate your Opal workspace.',
-    src: './workspace-tour.mp4'
+  {
+    id: "workspace",
+    title: "Quick Workspace Tour",
+    description: "Learn how to set up and navigate your Opal workspace.",
+    src: "./workspace-tour.mp4",
   },
-  { 
-    id: 'recording',
-    title: 'Recording Your First Video',
-    description: 'Step-by-step guide to record and upload your first video with Opal.',
-    src: '/collaboration.mp4'
+  {
+    id: "recording",
+    title: "Recording Your First Video",
+    description:
+      "Step-by-step guide to record and upload your first video with Opal.",
+    src: "/collaboration.mp4",
   },
-  { 
-    id: 'collaborate',
-    title: 'Collaborating with Team',
-    description: 'Discover how to invite team members and collaborate on projects.',
-    src: '/collaboration.mp4'
+  {
+    id: "collaborate",
+    title: "Collaborating with Team",
+    description:
+      "Discover how to invite team members and collaborate on projects.",
+    src: "/collaboration.mp4",
   },
-]
+];
 
 export default function VideoShowcase() {
-  const [playing, setPlaying] = useState(false)
+  const [playing, setPlaying] = useState(false);
 
   return (
     <section className="bg-gray-800 py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">See Opal in Action</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">
+          See Opal in Action
+        </h2>
         <Tabs defaultValue="workspace" className="w-full max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="workspace">Workspace Tour</TabsTrigger>
@@ -59,5 +63,5 @@ export default function VideoShowcase() {
         </Tabs>
       </div>
     </section>
-  )
+  );
 }

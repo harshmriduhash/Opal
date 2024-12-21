@@ -9,7 +9,9 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Now Organize your projects efficiently with dedicated workspaces. Invite team members, manage permissions, and keep your video content structured.
+            Now Organize your projects efficiently with dedicated workspaces.
+            Invite team members, manage permissions, and keep your video content
+            structured.
           </p>
           <div className="flex justify-center">
             <Image
@@ -28,7 +30,8 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Easily record videos directly in your browser or use our desktop app for more advanced recording options.
+            Easily record videos directly in your browser or use our desktop app
+            for more advanced recording options.
           </p>
           <div className="flex justify-center">
             <Image
@@ -47,7 +50,9 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Create folders, tag videos, and use our powerful search feature to keep your content organized. Share videos securely with customizable privacy settings and expiration dates.
+            Create folders, tag videos, and use our powerful search feature to
+            keep your content organized. Share videos securely with customizable
+            privacy settings and expiration dates.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -73,7 +78,9 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Invite team members or clients to view and comment on your videos. Use time-stamped comments for precise feedback and track viewer engagement.
+            Invite team members or clients to view and comment on your videos.
+            Use time-stamped comments for precise feedback and track viewer
+            engagement.
           </p>
           <div className="flex justify-center">
             <Image
@@ -92,7 +99,9 @@ export function FeatureSection() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Leverage AI technology for automatic video transcription, smart video titles and descriptions, and content summarization. Save time and enhance your video content effortlessly.
+            Leverage AI technology for automatic video transcription, smart
+            video titles and descriptions, and content summarization. Save time
+            and enhance your video content effortlessly.
           </p>
           <div className="flex justify-center">
             <Image
